@@ -15,7 +15,7 @@ services:
       dockerfile: Dockerfile
       args:
         - GHA_RUNNER_TOKEN=$GHA_RUNNER_TOKEN
-        - GHA_RUNNER_JWT_TOKEN=$GHA_RUNNER_JWT_TOKEN
+        - GH_JWT_TOKEN=$GH_JWT_TOKEN
         - GHA_RUNNER_DOWNLAOD_URL=$GHA_RUNNER_DOWNLAOD_URL
         - GH_REPO_URL=$GH_REPO_URL
     env_file:
